@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/fontawesome-pro-5.11.2/fontawesome-pro-5.11.2-web/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>{{title}}</title>
+</head>
+
+<body>
+  {{>header}}
+  <main class="main">
+    <div class="main__container">
+      {{>main}}
+      <h1 class="text1">{{dataReceive.place}}</h1>
+      <p class="text1">Weather: {{dataReceive.summary}}. Temperature: {{dataReceive.temperature}}</p>
+    </div>
+  </main>
+  </body>
+</html>
