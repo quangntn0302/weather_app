@@ -120,8 +120,6 @@ function geoMapData (keyword, callback) {
       return callback({ error: 'No result for your keyword, try again' }, undefined)
     } else {
       const placeData = []
-      const placeLat = []
-      const placeLng = []
       let objectMap = []
       const data = {
         place: function () {

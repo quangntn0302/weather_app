@@ -224,4 +224,4 @@ app.get('/*', (request, response) => {
   response.send('404 error')
 })
 
-app.listen(3300)
+app.listen(process.env.PORT || 3300)
